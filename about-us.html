@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>درباره ما</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/header-style.css">
+</head>
+
+<body>
+<style>
+	@font-face{
+	font-family:'Byekan';
+	src:url('fonts/BYekan/1.eot');
+    src:url('fonts/BYekan/1.eot') format('eot');
+	src:url('fonts/BYekan/3.woff'); format('woff');
+    src:url('fonts/BYekan/2.ttf'); format('truetype');
+    font-weight: normal;
+    font-style: normal;			
+}
+body{
+	background-color: #eeeded;
+}
+.login-box{
+	width:280px;
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:black;
+}
+.login-box h1{
+	float:left;
+	font-size:40px;
+	border-bottom:7px solid #008CFF;
+	margin-bottom:50px;
+	padding:13px 0;
+}
+.textbox{
+	width:100%;
+	overflow:hidden;
+	font-size:20px;
+	padding:8px 0;
+	margin:8px 0;
+	border-bottom:2px solid #008CFF;
+}
+.textbox i{
+	width:26px;
+	float:left;
+	text-align:center;
+}
+.textbox input{
+	border:none;
+	outline:none;
+	background:none;
+	color:black;
+	font-size:18px;
+	width:80%;
+	float:left;
+	margin:0 10px;
+}
+.btn{
+	width:100%;
+	background:none;
+	border:2px solid #008CFF;
+	color:black;
+	padding:5px;
+	font-size:18px;
+	cursor:pointer;
+	margin:18px 0;
+	border-radius:5px;
+}
+.btn:hover{
+	background:#008CFF;
+	color:white;
+}
+
+footer{
+	background:#f1f1f1;
+	padding:20px 0;
+	margin-top:25%;
+}
+.footer-container{
+	max-width:1300;
+	margin:auto;
+	padding:0 20px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap:wrap-reverse;
+}
+.logo{
+	width:180px;
+}
+.social-media{
+	margin:20px 0;
+}
+.social-media a{
+	color:#000000;
+	margin-right:25px;
+	font-size:30px;
+	text-decoration:none;
+	transition:.3s linear;
+}
+.social-media a:hover{
+	color:#0E4C92;
+}
+.right-col h4{
+	font-size:40px;
+	}
+.border{
+	width:100px;
+	height:4px;
+	background:#0E4C92;
+}
+.newsletter-form{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+}
+.txtb{
+	flex:1;
+	padding:18px 40px;
+	font-size:16px;
+	color:#293043;
+	background:#ddd;
+	border:none;
+	font-weight:700;
+	outline:none;
+	border-radius:30px;
+	min-width:260px;
+}
+.btn{
+	padding:18px 40px;
+	font-size:16px;
+	color:#f1f1f1;
+	background:#008CFF;
+	border:none;
+	font-weight:700;
+	outline:none;
+	border-radius:30px;
+	margin-left:8px;
+	cursor:pointer;
+	transition: opacity .3s linear;
+}
+.btn:hover{
+	opacity:.7;
+}
+@media screen and (max-width:960px){
+
+	.footer-container{
+		max-width:600px;
+	}
+	.right-col{
+		width:100%;
+		margin-bottom:60px;
+	}
+	.left-col{
+		width:100%;
+		text-align:center;
+	}
+}
+@media screen and (max-width:700px){
+.btn{
+	margin:0;
+	width:100%;
+	margin-top:20px;
+}
+}
+.img123{
+	margin-left: 75px;
+}
+hr{
+	width:1000px;
+	border:2px solid #1C2951;
+	margin-left:170px;
+	margin-top:20px;
+}
+.text{
+	direction: rtl;
+	font-family: 'Byekan';
+	font-size: 17px;
+	margin-right: 175px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+</style>
+<header>
+<br>
+<div id="header_top">
+<div id="header_top_right">
+<div id="header_top_right_top">
+<span id="login-pic"></span>
+<a class="login font13" href="#">رضایت شما، تداوم تولیدات ماست</a>
+<span id="register-pic"></span>
+<a class="font13 register" href="login.html">ثبت حساب کاربری</a>
+</div>
+<div id="header_top_right_bottom">
+<div id="basket_top">
+<span id="basket_top_right"></span>
+<span id="basket_top_left">
+<span class="font14" id="basket_buy">سبد خرید</span>
+<span  class="font14" id="count_basket">0</span>
+</span>
+</div>
+<div id="search_box">
+<input type="text"  id="search" class="font14" name="" placeholder="جستجوی محصولات"></div>
+<button id="btnsearch"></button>
+</div>
+
+</div>
+<div id="header_top_left"><img src="images/logo.jpg" width="209" height="107" alt=""/></div>
+</div>
+</header>
+
+<div class="menu">
+  <a href="header.html">صفحه اصلی</a>
+  <div class="drop">
+    <button class="button">محصولات بیشتر
+    </button>
+    <div class="drop-content">
+      <a href="iron.html">اتو</a>
+      <a href="coffee-maker.html">قهوه ساز</a>
+      <a href="fan.html">پنکه</a>
+    </div>
+  </div>
+  <a href="services-of-watson.html">خدمات پس از فروش</a>
+  <a href="namayandegi.html">نمایندگی</a>
+  <a href="about-us.html">درباره ما</a>
+</div>
+<img src="images/pic2.jpg" width="89%" height="40%" class="img123">
+<br><br><br>
+<h2 style="text-align: center; font-family: Byekan;">درباره واتسون</h2>
+<hr width="89%">
+<p class="text">
+ساعت کاری:<br>
+شنبه تا چهارشنبه: 9 الی 18<br>
+پنج شنبه: 9 الی 13<br>
+تلفن: 26205421 داخلی 3<br>
+فکس: 26205421<br>
+آدرس: پارک وی-ابتدای چمران-خیابان جوانان-پلاک 9-نیم طبقه اول<br>
+تماس با سرپرست خدمات پس از فروش:<br>
+sh-habibi@tehran-bouran.com
+</p>
+</body>
+</html>
